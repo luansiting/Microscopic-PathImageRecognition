@@ -61,7 +61,6 @@ python eval.py --model_path models/best_model.pth --data_dir data/
 |![训练准确率](results/training/train_acc.png) |![验证准确率](results/validation/val_acc.png) |
 | 最高准确率：98.5% | 最高准确率：96.2% |
 | 训练损失 | 验证损失 |
-|----------|----------|
 |![训练损失](results/training/train_loss.png) |![验证损失](results/validation/val_loss.png) |
 | 最低损失：0.05 | 最低损失：0.12 |
 
