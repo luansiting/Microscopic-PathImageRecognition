@@ -41,7 +41,7 @@ data/
 
 ### 3. 模型训练
 ```bash
-python train.py --data_dir data/ --epochs 10 --batch_size 16
+python train.py --data_dir data/ --epochs 5 --batch_size 16
 ```
 训练完成后，模型将保存至 `models/best_model.pth`，训练日志与指标曲线在 `results/` 目录。
 
@@ -60,6 +60,7 @@ python eval.py --model_path models/best_model.pth --data_dir data/
 |------------|------------|
 |![训练准确率](results/training/train_acc.png) |![验证准确率](results/validation/val_acc.png) |
 | 最高准确率：98.5% | 最高准确率：96.2% |
+|----------|----------|
 | 训练损失 | 验证损失 |
 |![训练损失](results/training/train_loss.png) |![验证损失](results/validation/val_loss.png) |
 | 最低损失：0.05 | 最低损失：0.12 |
